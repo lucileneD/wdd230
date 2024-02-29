@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    color: white;
+}
+
+header, footer, nav {
+    background-color: #01385Eff;
+}
+
+.parent {
+    margin: 1rem 2vw;
+}
+
+.parent section {
+    border: 1px solid #01385Eff;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.parent span {
+    background-color: #01385Eff;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: large;
+    padding: .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+    color: #005245;
+}
+nav{
+    background-color: #005245;
+    margin: 0 auto;
+  
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav.active{
+background-color: rgba(0, 0, 0,0,0.3);
+
+}
+
+/*Larger view*/
+@media (min-width: 640px){
+    nav ul{
+        display: flex;
+        justify-content: center;
+
+    }nav ul li{
+        flex: 1 1 100%;
+    }
+    }
+
+
+
+
+/* Image profile and name */
+header {
+    background-color: #01385Eff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1rem; /* Add margin-bottom to create separation from other sections */
+    box-sizing: border-box;
+
+}
+
+header img {
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.header-text {
+    flex-grow: 1;
+    background-color: #01385Eff; /* Set background color for the text section */
+    padding: 10px; /* Add padding for the text section */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #01385Eff;
+}
+
+
+/* Week link */
+.week-link {
+    color: #005245;
+    font-size: large;
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.week-link a {
+    color: blueviolet;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #e9f5e9;
+    background-color: #005245;
+}
+
+footer p {
+    margin: 10px 0;
+}
