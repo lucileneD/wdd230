@@ -131,3 +131,94 @@ footer {
 footer p {
     margin: 10px 0;
 }
+
+/* Hamburger button */
+#hamburger-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hide the navigation initially */
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+
+/* Update my media query for larger screens */
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    #hamburger-btn {
+        display: none;
+    }
+}
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #05181b;
+    color: white;
+}
+#dark-mode-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.dark-mode header, .dark-mode footer, .dark-mode nav {
+    background-color: #00416a;
+    color: #e9f5e9;
+}
+
+.dark-mode .parent section {
+    background-color: #004953;
+    
+}
+
+.dark-mode .parent span {
+    background-color: #1a2421;
+  
+}
+
+.dark-mode .parent p {
+    color: #e9f5e9;
+
+}
+
+.dark-mode nav  {
+    color: #006666;
+}
+
+.dark-mode a {
+    color:#fff
+}
+.dark-mode nav a:hover {
+    background-color: rgba(224, 222, 222, 0.3);
+}
+.dark-mode h2 {
+    color: #fff;
+
+}
+.dark-mode .week-link{
+    color:#e9f5e9;
+}
+
+.dark-mode li{
+    color: #202020;
+
+}
+.dark-mode ul{
+    color:#202020;
+}

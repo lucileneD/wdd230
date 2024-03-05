@@ -10,3 +10,24 @@ document.addEventListener("DOMContentLoaded", function () {
         lastModifiedElement.textContent = lastModified;
     }
 });
+
+//hamburger menu
+function toggleNav() {
+    var navList = document.querySelector('.nav-list');
+    navList.style.display = (navList.style.display === 'none' || navList.style.display === '') ? 'block' : 'none';
+}
+
+//Dark mode
+
+const darkModeButton = document.querySelector("#dark-mode-btn");
+const body = document.body;
+
+darkModeButton.addEventListener("click", () => {
+    if (body.classList.contains("dark-mode")) {
+        body.classList.remove("dark-mode");
+        darkModeButton.textContent = "⚙️ Dark Mode";
+    } else {
+        body.classList.add("dark-mode");
+        darkModeButton.textContent = "☀️ Light Mode";
+    }
+});
