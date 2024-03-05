@@ -169,56 +169,62 @@ body.dark-mode {
     background-color: #05181b;
     color: white;
 }
+
 #dark-mode-btn {
     background: none;
-    border: none;
+    border-radius: 30px;
     font-size: 1rem;
     color: white;
     cursor: pointer;
 }
 
-.dark-mode header, .dark-mode footer, .dark-mode nav {
-    background-color: #00416a;
-    color: #e9f5e9;
+.dark-mode header, .dark-mode nav {
+    background-color: #213a47; /* Dark background color for header and nav */
+    color: white;
 }
 
+
 .dark-mode .parent section {
-    background-color: #004953;
-    
+    background-color: #004953; /* Dark background color for section */
 }
 
 .dark-mode .parent span {
-    background-color: #1a2421;
-  
+    background-color: #1a2421; /* Dark background color for span */
 }
 
 .dark-mode .parent p {
     color: #e9f5e9;
-
 }
 
-.dark-mode nav  {
+.dark-mode nav {
     color: #006666;
 }
 
 .dark-mode a {
-    color:#fff
+    color: #fff;
 }
+
 .dark-mode nav a:hover {
-    background-color: rgba(224, 222, 222, 0.3);
+    background-color: #08457e;
 }
+
 .dark-mode h2 {
     color: #fff;
-
-}
-.dark-mode .week-link{
-    color:#e9f5e9;
 }
 
-.dark-mode li{
+.dark-mode .week-link {
+    color: #e9f5e9;
+}
+
+.dark-mode li {
     color: #202020;
-
 }
-.dark-mode ul{
-    color:#202020;
+
+.dark-mode ul {
+    color: #202020;
+}
+
+.dark-mode footer {
+    background-color: #213a47; /* Dark background color for footer */
+    color: white;
 }
