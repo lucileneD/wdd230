@@ -269,7 +269,7 @@ main {
 h2 {
     color: #317171;
 }
-h3, h4 {
+h4 {
     color: #317171;
     grid-column: 2;
     justify-self: start;
@@ -277,6 +277,12 @@ h3, h4 {
     margin-bottom: 0;
     }
     
+    h3{
+        background-color: #01385E;
+        color: #d9d9d9;
+        padding: 1rem;
+        border-radius: 10px;
+    }
 
 section {
     padding: 0 1em;
@@ -322,54 +328,27 @@ section {
         background-color: #01385E;
         box-shadow: 4px 4px 4px #000000;
       }
+/**Spot light section**/
 
- /*temporary hero image */
-
- .hero img {
-    width: auto;
-    object-fit: cover;}
-     
-/*show the weather Summary*/
-
-div.hero {
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-}
-
-div.hero section {
-    top: 20px;
-    left: 20px;
-    width: 200px;
-    height: calc(100% - 40px);
-    position: absolute;
-    background: rgba(33, 247, 101, 0.3);
-    background-image: linear-gradient(-160deg, rgb(14, 114, 172) 50%,rgb(7, 75, 48));
-}
-div.hero section h3 {
-    margin-top:0;
-}
-section.summary {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-}
-section.summary h3 {
-    grid-column: span 2;
+.spotlight {
+    display: flex;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .spotlight-1,
+  .spotlight-2,
+  .spotlight-3 {
+    flex: 1;
+    margin: 0 10px;
     text-align: center;
-    color: #ffffff;
-    margin: 1px;;
-    
-}
-section.summary span {
-    font-size: 13px;
-    text-align: right;
-    font-weight: normal;
-}
-section.summary span.colored {
-    text-align: left;
-    padding-left: 5px;
-    color: #ffffff;
-}
+  }
+  
+  .spotlight img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
 
 /* Style for the footer */
 footer {
@@ -386,3 +365,49 @@ p.custom{
 color:#c5efe4;
 }
 
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust as needed for spacing between icons */
+  }
+  
+  #social a {
+    display: block;
+    text-align: center;
+  }
+  
+  #contact {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed for spacing between social icons and contact information */
+  }
+
+  /* Chamber container*/
+  
+ .container-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust as needed */
+  }
+  
+  .Chamber-container {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* 33.33% width for each container with a gap of 20px */
+    box-sizing: border-box;
+  }
+  
+  .card-img {
+    width: 100%; /* Ensure images take full width within their container */
+  }
+  
+  /* Adjust styles for each section as needed */
+  #top,
+  h2,
+  h3 {
+    width: 100%; /* Ensure headings take full width initially */
+  }
+  
+  .join-button-container {
+    width: 100%; /* Ensure the button container takes full width */
+    box-sizing: border-box;
+  }
