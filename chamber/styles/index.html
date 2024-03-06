@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230- Web Fronted Development- Lucilene DeWeese - Course assignment portal">
+        <meta name="author" content="Lucilene DeWeese">
+        <link rel="icon" href="/images/favicon.ico">
+        <title>Newnan Chamber of Commerce </title>
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="stylesheet" href="/chamber/styles/base.css" type="text/css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta property="og:title" content="Chamber">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="Chamber of commerce.">
+        <meta property="og:image" content="https:https://lucilened.github.io/wdd230/images/lucilened.webp">
+        <meta property="og:url" content="https://lucilened.github.io/wdd230/">
+        <meta property="og:site_name" content="Wed Design">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image:alt" content="Newnan">
+    </head>
+
+    <body>
+      
+        <header>
+          <!-- Top Navigation Menu -->
+      <div class="topnav">
+          <img id="logo" src="/chamber/images/logoNewnan.webp" alt="logo">
+          <h1>Newnan Chamber of Commerce</h1>
+      </div>
+        </header>
+      
+          <a id="menu" href="#"></a>
+        <nav>
+          <button id="hamburgerBtn"><span id="menu-btn" class="box">Menu</span>&#9776;</button>
+       
+           <ul id="Nav">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+           </ul>
+      
+        </nav>
+           
+          <main>
+            <!--dark mode-->
+                  
+            <section class = "card1">
+              <h2> Welcome to the Newnan Chamber of Commerce </h2>
+             
+            </section>
+         
+              <div class="hero">
+                <picture>
+                    <source srcset="./images/Newnan-small.webp"
+                            media="(max-width: 500px)">
+                    <source srcset="./images/Newnan-medium.webp"
+                            media="(max-width: 960px)">
+                    <img src="images/Newnan.webp" alt="hero-image" width="960" height="480">
+                </picture>
+      
+                    <section class="summary">
+                    <h3>Weather </h3>
+                    <span>Currently:</span>
+                    <span class="colored">Raining</span>
+                    <span>High:</span>
+                    <span class="colored"><span class="temperature">
+                        54</span>&deg;F</span>
+                    <span>Wind Chill:</span>
+                    <span class="colored chill"><span class="wind-chill">
+                        </span>&deg;F</span>
+                    <span>Humidity:</span>
+                    <span class="colored">95%</span>
+                    <span>Wind Speed:</span>
+                    <span class="colored"><span class="wind-speed">
+                        12</span> mph</span>
+                </section>
+                
+            </div>
+          <br>
+          <div id="myModal" class="modal"><!--Display on Monday, Tuesday, Wednesday - using JS-->
+            <div class="modal-content">
+              <span id="close">&times;</span>l.
+              <h3 id="bottom"> You are Invited</h3>
+              <br>
+              <p> Connect with our Chamber on our Lunch and Learn event.<br><b>Where</b>: 23 Bullsboro Drive Newnan, GA 30265
+         (770)253.2270<br><b>AT</b> 10-12am<br>lunch is provided.<br> Please <b>RSVP</b> to Mrs.Coles on 678-925-6989</p>
+      </div>  
+      
+            <h3>Our Purpose</h3>
+            <br>
+            <p>
+              Our organization advocates for the success of our members and community. We serve as a catalyst in growing a healthy business community 
+              through our advocacy of business friendly public policy, fostering of diverse innovative business initiatives, and delivering valuable 
+              programs and services to our members.We are the place where business and community connect. Members have the opportunity to connect with
+              fellow members, creating a stronger business climate.
+              <br>
+            </p>
+            <br>
+          
+          <div class="Chamber-container">
+          <img class="card-img" src="images/events.webp" alt="events">
+        </div>           
+          <h2>Upcoming Events</h2>
+          <p><b>December 5-</b> Ribbon cutting: Wynn Productions</p>
+          <p><b>December 11-</b> 2023 Lunch and learn series</p>
+          <p><b>December 17-</b> Breakfast and Network </p>
+          <br>
+          </div>
+      
+          
+      <div class="Chamber-container">
+      <img class="card-img" src="images/gallery.webp" alt="spotlight">
+        </div>       
+      
+      <h2 id="top"> Gold Members</h2>
+        <pre> KELLER WILLIAMS REALTY NW MONTANA</pre> <pre> NAVIGATE MARKETING,INC.</pre> <pre> CHROMALLOY GEORGIA</pre> <pre> BWAY CORP</pre> <pre> RBW ENTERPRISE</pre> <pre>PRINT SOURCE </pre> <pre>MINUTE MAN PRESS</pre>
+             
+       
+        <div class="Chamber-container">
+          <img class="card-img" src="images/joinus.webp" alt="join">
+          <h2>Become a member of the Chamber.</h2>
+          <p>By joining the Chamber, you are supporting our mission to help people live, work & thrive in Newnan.
+            Newnan Chamber connects businesses to vital information and to each other.
+             Build your network through our program, event, and relationship opportunities.</p> 
+        </div>
+        
+        <form action="join.html">
+            <button class="join-button">Join Now</button> </form>
+         <Pre></Pre> 
+         <br>
+         <section class ="card2">
+          <h3>Newnan 7 Days Forecast</h3>
+          <a class="weatherwidget-io" href="https://forecast7.com/en/33d38n84d80/newnan/" data-label_1="NEWNAN" data-label_2="WEATHER" data-theme="original" >NEWNAN WEATHER</a>
+      <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+      </script>
+      </section>
+      
+      <!--weather did not work-->
+      
+      <div class="contact-info">
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53307.90310131645!2d-84.76311095000001!3d33.37775035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f4c62a4dc53ab9%3A0xf4ea9dda60240ecb!2sNewnan%2C%20GA!5e0!3m2!1spt-BR!2sus!4v1696440041618!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+       <br>
+      <div class="info">
+        <br>
+      
+        <section class = "card1">
+          <h4> Business Spotlight</h4>
+        </section>
+      
+        
+        <section class="spotlight">
+          <div class="spotlight-1">
+              <h2>KAY FASHION JEWElRY</h2>
+              <a href="https://www.kay.com/"> <img src="images/kayjewerly.webp" alt="spotlight 1"></a>
+      
+              <p> 386 Newnan Crossing Byp, Newnan, GA 30265</p>
+              <p> (770) 252-2592</p> 
+              
+          </div>
+      
+          <div class="spotlight-2">
+              <h2>PIEDMONT PHYSICIANS</h2>
+              <a href="https://www.care.piedmont.org"><img src="images/vitual.webp" alt="Spotlight 2"></a>
+      
+              <p>189 Jefferson Parkway, Newnan, GA 30263</p>
+              <p>(770) 304-2220</p> 
+             
+          </div>
+      
+          <div class="spotlight-3">
+              <h2> APRICOT LANE BOUTIQUE </h2>
+              <a href="http://www.apricotlaneboutique.com/"><img src="images/Apricotfashion.webp" alt="Spotlight 3"></a>
+              
+              <p> 358 A Newnan Crossing Blvd, Newnan, GA  30263</p> 
+              <p>770-400-5881</p>
+             
+          </div> 
+      
+        </section>
+      
+        <h3> Events in Newnan</h3>
+        <br>
+          <p><b>December 09-</b>Toys4Tots Newnan Library</p>
+          <p><b>December 11-</b>Santa on the Square 2023</p> 
+          <p><b>December 24-</b>Newnan Christmas parade </p>
+          <br>
+      
+          <h4>Contact Information</h4>
+          <br>
+          <p>23 Bullsboro Drive Newnan,GA 30265
+            (770)253.2270
+            info@newnanchamber.org
+          </p>
+      </div>
+          <div class="social-links">
+                <a href ="https://www.facebook.com">
+                  <img src="images/icon1.jpg" alt="Facebook Icon"></a>
+                  <a href ="https://www.instagram.com">
+                  <img src="images/icon2.jpg" alt="Instagram Icon"></a>
+          </div>
+      
+       </main>
+      <footer> 
+        <p class="custom"> &copy; <span id="date"></span> | Lucilene DeWeese | Georgia | WDD 230 | </p>
+        <p class="custom">Last Modified: <span id="modified"></span></p>
+              <script src="Scripts/getdates.js"></script>
+              <script src="Scripts/windchill.js"></script>
+              <script src="Scripts/directory.js"></script>
+              <script src="Scripts/inviteBanner.js"></script>
+              <script src="Scripts/spotlight.js"></script>
+             
+      
+           
+      </footer>
+      </body>
+      </html>
+        
+      
+      
+      
+      

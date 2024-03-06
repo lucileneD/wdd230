@@ -1,4 +1,7 @@
-//Last modified
+
+/**********************************
+*Last modified*
+**********************************/
 
 document.addEventListener("DOMContentLoaded", function () {
     // Get the last modified timestamp
@@ -11,13 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-//hamburger menu
-function toggleNav() {
-    var navList = document.querySelector('.nav-list');
-    navList.style.display = (navList.style.display === 'none' || navList.style.display === '') ? 'block' : 'none';
-}
 
-//Dark mode
+/**********************************
+* Dark Mode *
+**********************************/
 
 const darkModeButton = document.querySelector("#dark-mode-btn");
 const body = document.body;
@@ -30,4 +30,17 @@ darkModeButton.addEventListener("click", () => {
         body.classList.add("dark-mode");
         darkModeButton.textContent = "☀️ Light Mode";
     }
+});
+
+
+/**********************************
+* Navigation Management Functions *
+**********************************/
+
+// code for responsive nav menu
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
 });

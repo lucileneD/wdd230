@@ -133,37 +133,73 @@ footer p {
     margin: 10px 0;
 }
 
-/* Hamburger button */
-#hamburger-btn {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
+/* small view navigation */
+
+#menu {
+	font-size: 2rem;
+	border: none;
+	padding: .25rem 2vw;
+	background-color: none;
     cursor: pointer;
+	color: #fff;
+ 	position: relative;
+	margin-left: 90%;
+	top: -2.2rem;
 }
 
-/* Hide the navigation initially */
-nav ul {
-    list-style-type: none;
-    display: none;
+#menu::before {
+	content: "☰";
 }
 
-/* Update my media query for larger screens */
-@media (min-width: 640px) {
-    nav ul {
+#menu.open::before {
+	content: "❤️";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.navigation li {
+	display: none;
+}
+
+
+
+/* when the button is clicked - the open class is toggled (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+
+.open li a {
+	display: block;
+}/* end navigation */
+
+
+ /* large view navigation */
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    nav {
+        grid-area: 2/1/3/3;
+    }
+
+    .navigation {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: start;
     }
-    nav ul li {
-        flex: 1 1 100%;
-    }
-    #hamburger-btn {
-        display: none;
-    }
-}
 
-
+	.navigation li {
+		display: block;
+		/*flex: 1 1 100%;*/
+	}/*end navigation*/
+    
 
 /* Dark mode styles */
 body.dark-mode {
@@ -175,8 +211,12 @@ body.dark-mode {
     background: none;
     border-radius: 30px;
     font-size: 1rem;
-    color: white;
+    background-color: #006666;
+    color: #fff;
     cursor: pointer;
+    padding: .5rem;
+    margin-bottom: 20px;
+    margin-left: 20px; 
 }
 
 .dark-mode header, .dark-mode nav {
