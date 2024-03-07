@@ -15,9 +15,8 @@
   <meta name="twitter:image:alt" content="Newnan">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="/chamber/images/favicon.ico">
-  <link rel="stylesheet" href="styles/large.css">
   <link rel="stylesheet" href="/chamber/styles/base.css" type="text/css">
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="/chamber/styles/normalize.css">
   <title>Newnan Chamber of Commerce </title>
 </head>
    
@@ -33,14 +32,23 @@
       
         
   <nav>
-      <button id="hamburgerBtn"><span id="menu-btn" class="box">Menu</span>&#9776;</button>
-       
-      <ul id="Nav">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-     </ul>       
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul> 
+    <ul>
+      
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="discover.html">Discover</a></li>
+      <li class="hideOnMobile"><a href="directory.html">Directory</a></li>
+      <li class="hideOnMobile"><a href="join.html">Join</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+   </ul> 
+
       
   </nav>
            
@@ -139,7 +147,8 @@
               <p> (770) 252-2592</p> 
               
           </div>
-      
+      <br>
+
           <div class="spotlight-2">
               <h2>PIEDMONT PHYSICIANS</h2>
               <a href="https://www.care.piedmont.org"><img src="/chamber/images/piedmont.webp" alt="Spotlight 2"></a>
@@ -148,7 +157,8 @@
               <p>(770) 304-2220</p> 
              
           </div>
-      
+      <br>
+
           <div class="spotlight-3">
               <h2> APRICOT LANE BOUTIQUE </h2>
               <a href="http://www.apricotlaneboutique.com/"><img src="/chamber/images/boutique.webp" alt="Spotlight 3"></a>
@@ -157,10 +167,12 @@
               <p>770-400-5881</p>
              
           </div> 
-      
+      <br>
+
         </section>
       
-            
+            <br>
+
           <h3>Contact Information</h3>
           <br>
           <p>23 Bullsboro Drive Newnan,GA 30265
@@ -182,11 +194,8 @@
       <footer> 
         <p class="custom"> &copy; <span id="date"></span> | Lucilene DeWeese | Georgia | WDD 230 | </p>
         <p class="custom">Last Modified: <span id="modified"></span></p>
-              <script src="Scripts/getdates.js"></script>
-              <script src="Scripts/windchill.js"></script>
-              <script src="Scripts/directory.js"></script>
-              <script src="Scripts/inviteBanner.js"></script>
-              <script src="Scripts/spotlight.js"></script>
+              <script src="/chamber/scripts/lastmodified.js"></script>
+             
              
       
            

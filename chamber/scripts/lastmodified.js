@@ -1,4 +1,3 @@
-
 /**********************************
 *Last modified*
 **********************************/
@@ -13,26 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         lastModifiedElement.textContent = lastModified;
     }
 });
-
-
-/**********************************
-* Dark Mode *
-**********************************/
-
-const darkModeButton = document.querySelector("#dark-mode-btn");
-const body = document.body;
-
-darkModeButton.addEventListener("click", () => {
-    if (body.classList.contains("dark-mode")) {
-        body.classList.remove("dark-mode");
-        darkModeButton.textContent = "⚙️ Dark Mode";
-    } else {
-        body.classList.add("dark-mode");
-        darkModeButton.textContent = "☀️ Light Mode";
-    }
-});
-
-
 
 /**********************************
 *Side Bar*
