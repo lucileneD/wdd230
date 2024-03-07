@@ -500,3 +500,18 @@ color:#c5efe4;
     height: auto; /* Maintain the aspect ratio */
   }
 }
+
+
+/* Style for the specific text "Newnan the city of homes" */
+.custom-text {
+  color: #c5efe4; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px; 
+  font-weight: bold; 
+  padding: 2rem;
+}
+
+/* Style for the SVG icon to make it white */
+.sidebar-item svg {
+  fill: white; /* Set the fill color to white */
+}
