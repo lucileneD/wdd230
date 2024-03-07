@@ -475,3 +475,19 @@ color:#c5efe4;
     height: auto; /* Maintain the aspect ratio */
   }
 }
+
+/* hero image Media query for screens with width up to 957px */
+@media (max-width: 957px) {
+  .hero img {
+    width: 100%; /* Make the image 100% width */
+    height: auto; /* Maintain the aspect ratio */
+  }
+}
+
+/* hero image Media query for screens with width between 957px and 1220px */
+@media (min-width: 957px) and (max-width: 1220px) {
+  .hero img {
+    width: 80%; /* Adjust the percentage based on your design preference */
+    height: auto; /* Maintain the aspect ratio */
+  }
+}
