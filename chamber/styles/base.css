@@ -363,7 +363,7 @@ section {
 
 /* Style for the footer */
 footer {
-    background-color: #317171;
+  background-color: #0b6623;
     position: relative;
     color: white;
     padding: 0.75em;
@@ -371,6 +371,15 @@ footer {
     text-align: center;
     z-index: 5;
 }
+p.footer-text{
+  color: #f0f0f0;
+}
+/* Style the "Last Modified" paragraph */
+.last-modified {
+  color: white; /* Set the color to white */
+  font-weight: bold;
+}
+
 
 p.custom{
 color:#c5efe4;
