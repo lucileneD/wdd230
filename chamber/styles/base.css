@@ -422,3 +422,56 @@ color:#c5efe4;
     width: 100%; /* Ensure the button container takes full width */
     box-sizing: border-box;
   }
+
+  /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container-group {
+    flex-direction: column; /* Stack items on top of each other */
+  }
+
+  .Chamber-container {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Media query for medium screens */
+@media (max-width: 1200px) {
+  .container-group {
+    flex-direction: column; /* Stack items on top of each other for medium screens */
+  }
+
+  .Chamber-container {
+    max-width: 100%; /* Full width for each container on medium screens */
+    margin-bottom: 20px; /* Add margin between stacked items */
+  }
+}
+
+/* Media query for small and medium screens - Map*/
+@media (max-width: 768px) {
+  .contact-info iframe {
+    width: 100%; /* Make the map full width on small and medium screens */
+    height: 300px; /* Set the desired height for small and medium screens */
+  }
+}
+
+/* spot light Media query for small and medium screens */
+@media (max-width: 768px) {
+  .spotlight {
+    flex-direction: column; /* Stack spotlights on top of each other for small and medium screens */
+    margin-top: 20px; /* Add margin between stacked spotlights */
+  }
+  
+  .spotlight-1,
+  .spotlight-2,
+  .spotlight-3 {
+    margin-bottom: 20px; /* Add margin between stacked spotlights */
+  }
+}
+
+/* hero image Media query for small and medium screens */
+@media (max-width: 960px) {
+  .hero img {
+    width: 100%; /* Make the image full width on small and medium screens */
+    height: auto; /* Maintain the aspect ratio */
+  }
+}
