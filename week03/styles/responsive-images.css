@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: RGB(247, 206, 242);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    span {
+        font-size: 12px;
+    }
+}
