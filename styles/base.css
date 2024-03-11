@@ -350,9 +350,8 @@ body.dark-mode {
     
 .herolabel {
     position: absolute;
-    top:200;
-    left: 20;
-    bottom: 10%;
+    top:90%;
+    left: 10px;
     margin-left: 40px;
     background: radial-gradient(#e6f5e4, #065e50);
     border: 1px solid rgba(6, 76, 60, 0.991);
