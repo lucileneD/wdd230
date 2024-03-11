@@ -335,3 +335,36 @@ body.dark-mode {
     background-color: #213a47; /* Dark background color for footer */
     color: white;
 }
+/***Hero Image****/
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#e6f5e4, #065e50);
+    border: 1px solid rgba(6, 76, 60, 0.991);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+        
+    }    
+    
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family:"Great Vibes", serif;
+    color: #042545;
+    
+    }
+    
