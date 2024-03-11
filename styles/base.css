@@ -338,7 +338,7 @@ body.dark-mode {
 /***Hero Image****/
 .hero {
     position: relative;
-    overflow: hidden;
+    
 }
 
 .hero img {
@@ -347,15 +347,18 @@ body.dark-mode {
     display: block;
     padding: 2rem;
     }
+    
 .herolabel {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top:200;
+    left: 20;
+    bottom: 10%;
+    margin-left: 40px;
     background: radial-gradient(#e6f5e4, #065e50);
     border: 1px solid rgba(6, 76, 60, 0.991);
     padding: 1.5rem;
     box-shadow: 0 0 3rem #fff;
-    opacity: 0.75;
+    opacity: 0.85;
         
     }    
     
