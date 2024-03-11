@@ -345,11 +345,12 @@ body.dark-mode {
     width: 100%;
     height: auto;
     display: block;
+    padding: 2rem;
     }
 .herolabel {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 50px;
+    left: 50px;
     background: radial-gradient(#e6f5e4, #065e50);
     border: 1px solid rgba(6, 76, 60, 0.991);
     padding: 1.5rem;
@@ -368,7 +369,7 @@ body.dark-mode {
     
     }
     
-    /* #pageVisitCounter {
-        background-color: none; 
-        font-weight: bolder;
-      } */
+    iframe {
+        border: 1px solid #ccc; 
+        padding: 4rem;
+      } 
