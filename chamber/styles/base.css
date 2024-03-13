@@ -592,7 +592,7 @@ main.discover picture img[data-src] {
 }
 
 #discover-main img {
-  transition: 1s;
+  transition: 3s;
 }
 
 /* Adjustments for the Discover Page layout */
@@ -635,11 +635,11 @@ main.discover picture img[data-src] {
 
 @keyframes img-come-in {
   from {
-    transform: scale(0.9);
-    opacity: 0;
+      transform: scale(0.9);
+      opacity: 0;
   }
   to {
-    transform: scale(1);
-    opacity: 1;
+      transform: scale(1);
+      opacity: 1;
   }
 }
