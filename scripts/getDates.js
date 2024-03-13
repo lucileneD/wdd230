@@ -34,17 +34,6 @@ darkModeButton.addEventListener("click", () => {
 
 
 
-/**********************************
-*Side Bar*
-**********************************/
-// function showSidebar(){
-//     const sidebar = document.querySelector('.sidebar')
-//     sidebar.style.display= 'flex'
-// }
-// function hideSidebar(){
-//     const sidebar = document.querySelector('.sidebar')
-//     sidebar.style.display= 'none'
-// }
 
 /**********************************
 *Side Bar*
@@ -69,3 +58,32 @@ document.addEventListener('keydown', function (event) {
         }
     }
 });
+
+/**********************************
+*visit counter*
+**********************************/
+
+// get the date right now in ms
+const currDateInMs = Date.now();
+let lastVisit = 0;
+let msSinceVisit = 0;
+
+// retrieve visit count from localStorage
+let numOfVisits = Number(window.localStorage.getItem('visits')) || 0;
+
+// calculate ms since last visit
+if (localStorage.getItem('lastVisitDate') !== null) {
+    lastVisit = JSON.parse(localStorage.getItem('lastVisitDate'));
+    msSinceVisit = currDateInMs - lastVisit;
+}
+
+// update visit count
+numOfVisits++;
+
+// store the new number of visits value and the current visit date
+localStorage.setItem("visits", numOfVisits);
+localStorage.setItem("lastVisitDate", JSON.stringify(currDateInMs));
+
+// display visit count
+let visitCounter = document.querySelector('#pageVisitCounter');
+visitCounter.textContent = `Visit Count: ${numOfVisits}`;
