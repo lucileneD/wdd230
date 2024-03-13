@@ -15,30 +15,39 @@ document.addEventListener('DOMContentLoaded', function () {
 *number of visits the Discover page*
 **********************************/
 
-let numVisits = document.querySelector('.daysOfVisit');
+// get the date right now in ms
+const theDateToday = new Date();
+const currDateInMs = Date.now();
+let lastVisit = 0;
+let msSinceVisit = 0;
 
-//Script for displaying the number of days on Discover page
-
-let numOfVisits = Number(window.localStorage.getItem('visits'));
-let lastVisit= Number(window.localStorage.getItem('lastVisits'));
-
-const FACTOR = 1000 * 60 * 60 * 24;
-
-let daysBetween = Date.now() - lastVisit;
-
-let numOfDays = Math.ceil(daysBetween / FACTOR);
-
-localStorage.setItem('lastVisits', Date.now());
-
-if (numOfVisits != 0) {
-
-    numVisits.textContent = 'It\'s been ' + numOfDays + ' day(s) since your last visit.'
-
+// calculate ms since last visit
+if (localStorage.getItem('lastVisitDate') == null) {
+    msSinceVisit = 0;
 } else {
-    numVisits.textContent = 'This is your first page visit.'
+    lastVisit = JSON.parse(localStorage.getItem('lastVisitDate'));
+    msSinceVisit = currDateInMs - lastVisit;
 }
 
-numOfVisits++;
-// store the new number of visits value
-localStorage.setItem("visits", numOfVisits);
+// display one of three possible messages based on how many times they have visited
+let daysOfVisit = document.querySelector('.daysOfVisit');
 
+if (msSinceVisit < 600) {
+    daysOfVisit.textContent = `Welcome! Let us know if you have any questions.`;
+} else if (msSinceVisit < (24 * 3600000)) {
+    daysOfVisit.textContent = `Back so soon! Awesome!`;
+} else {
+    // calculate days since last visit
+    let daysSince = Math.round(msSinceVisit / 60 / 60 / 24);
+
+    if (daysSince === 1) {
+        daysOfVisit.textContent = `You last visited 1 day ago.`;
+    } else if (daysSince > 1) {
+        daysOfVisit.textContent = `You last visited ${daysSince} days ago.`;
+    } else {
+        daysOfVisit.textContent = `This is your first visit. Welcome!`;
+    }
+}
+
+// update the last visit date in local storage
+localStorage.setItem('lastVisitDate', JSON.stringify(currDateInMs));
