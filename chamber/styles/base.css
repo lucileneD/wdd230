@@ -643,3 +643,28 @@ main.discover picture img[data-src] {
       opacity: 1;
   }
 }
+
+/* Small screens (max-width: 400px) */
+@media screen and (max-width: 400px) {
+  /* Styles specific to small screens */
+}
+
+/* Medium screens (401px - 768px) */
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  /* Styles specific to medium screens */
+}
+
+/* Large screens (769px - 960px) */
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  /* Styles specific to large screens */
+}
+
+/* Extra-large screens (961px - 1220px) */
+@media screen and (min-width: 961px) and (max-width: 1220px) {
+  /* Styles specific to extra-large screens */
+}
+
+/* Extra-large screens (1221px and above) */
+@media screen and (min-width: 1221px) {
+  /* Styles specific to screens larger than 1220px */
+}
