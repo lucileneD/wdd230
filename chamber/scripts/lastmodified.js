@@ -51,3 +51,6 @@ localStorage.setItem("visitCount", visitCount);
 
 // 6️⃣ Add class for additional styling if needed
 visitsDisplay.classList.add("counter-value");
+
+
+

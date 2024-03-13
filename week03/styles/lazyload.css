@@ -35,6 +35,16 @@ picture img.in {
 }
 
 
+picture img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 4px #2f2f2f;
+    background-color: rgb(4, 47, 107);
+    animation: img-come-in 3s;
+}
+
 @keyframes img-come-in {
     from {
         transform: scale(0.9);

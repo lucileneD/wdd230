@@ -512,3 +512,134 @@ color:#c5efe4;
 .sidebar-item svg {
   fill: white; /* Set the fill color to white */
 }
+
+/*Discover style*/
+/* -----Lazy Load Effect-------- */
+main.discover picture img[data-src] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* -----Discover Page Section-------- */
+#discover-heading {
+  color: #ffffff; 
+  font-size: 24px;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #01385E;
+}
+  
+.media-card {
+  width: 48%; 
+  margin: 0 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px 2px #888;
+  margin-bottom: 3rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.media-card img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.discover-article {
+  padding: 2rem;
+  text-align: center;
+}
+
+.discover-article p {
+  padding-top: 1rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .media-card {
+    width: 100%; /* Full width for smaller screens */
+    margin: 0 0 20px 0;
+  }
+}
+
+
+/* Add a shadow to create a lift effect */
+
+.media-card:hover img {
+  transform: scale(1.1); 
+} 
+/* Adjust the styles for the sidebar */
+#discover-sidebar {
+    grid-column: 2;
+    padding:1rem; 
+    width: 48%; 
+    margin-top: 20px;
+}
+
+/* Optionally, add some styling to the sidebar articles */
+#discover-sidebar article {
+ 
+  box-shadow: 0.4em 0.4em 0.7em #353535;
+  margin-bottom: 15px;
+}
+#discover-sidebar article h3 {
+  padding-top: 0;
+  margin: 0 0 0 7px;
+}
+
+.stats {
+  padding: 8px;
+}
+
+#discover-main img {
+  transition: 1s;
+}
+
+/* Adjustments for the Discover Page layout */
+#discover {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.media-cards-and-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-cards {
+  width: 60%; /* Adjust the width of the media cards based on your design */
+}
+
+
+#discover-main img:hover {
+  transform: scale(1.01);
+}
+
+.daysOfVisit{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+
+.mediapic {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 2px 2px 4px #2f2f2f;
+  background-color: rgb(4, 47, 107);
+  animation: img-come-in 4s;
+ 
+}
+
+@keyframes img-come-in {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

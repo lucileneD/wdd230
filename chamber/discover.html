@@ -1,0 +1,254 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230- Web Fronted Development- Lucilene DeWeese - Chamber">
+  <meta name="author" content="Lucilene DeWeese">
+  <meta property="og:title" content="Chamber">
+  <meta property="og:description" content="Chamber of commerce.">
+  <meta property="og:image" content="https://github.com/lucileneD/wdd230/blob/main/chamber/images/titleimage.jpg">
+  <meta property="og:url" content="https://lucilened.github.io/wdd230/">
+  <meta property="og:site_name" content="Wed Design">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="Newnan">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="../chamber/styles/base.css" type="text/css">
+  <link rel="stylesheet" href="../chamber/styles/normalize.css">
+  <title>Newnan Chamber of Commerce </title>
+</head>
+   
+<body>
+      
+  <header>
+          <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <img id="logo" src="./images/logoNewnan.webp" alt="newnan logo">
+      <h1>Newnan Chamber of Commerce</h1>
+    </div>
+  </header>
+      
+        
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul> 
+    <ul>  
+      <li class="custom-text">Newnan the city of homes</li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="discover.html">Discover</a></li>
+      <li class="hideOnMobile"><a href="directory.html">Directory</a></li>
+      <li class="hideOnMobile"><a href="join.html">Join</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+   </ul> 
+
+  </nav>
+           
+  <br>
+    <!-- Discover Page Content -->
+    
+      <div class="discover-heading">
+        <h2 class="greeting" id="discover-heading">Activities to Explore in Newnan and the Surrounding Area</h2>
+        <p class="daysOfVisit"></p>
+      </div>
+<br>
+      <!-- Discover Page Media Cards -->
+      <main id="discover">
+<div class="media-card">
+          <br>
+    <picture id="mediapic"><img src="/chamber/images/thewalkingdead.webp"  alt="Walking Dead Tour" loading="lazy"></picture>
+      <div class="discover-article">
+          <h2 class="media-title">Walking Dead Tour</h2>
+          <p>
+            Embark on an exclusive journey behind the curtains of the acclaimed television series, 'The Walking Dead,' with our expert-guided walking tour.
+            Delve into the atmospheric Esco Feed Mill property, a backdrop for numerous pivotal scenes in the show. As part of the adventure, select a replica
+            prop weapon to accompany your stroll, mirroring the iconic choices seen in the series. Your knowledgeable guide will lead you through the
+            significant locations, providing an exhilarating and immersive experience.
+          </p>
+       </div>
+</div>
+
+
+        <!-- Sidebar Content -->
+        <section id="discover-sidebar">
+          <h2>Welcome to Newnan Chamber's Discover Page!</h2>
+          <article class="stats">
+      <h3>Newnan Development:</h3>
+        <br>
+        <p> Newnan is a charming city located in Coweta County, Georgia, United States. 
+        Situated approximately 40 miles southwest of Atlanta, Newnan is known for its rich history,
+        Southern hospitality, and a blend of modern amenities with a small-town feel.
+       The city has experienced notable growth in recent years while maintaining its historic character and sense of community.</p>
+    </article>
+
+    <article class="stats">
+      <h3>Demographics Data</h3>
+      <p>Population: 42,549</p>
+      <p>Median Age: 25-34</p>
+      <p>Median Income: $71,630</p>
+      <p>Median Property Value: $888,300</p>
+      
+      <h3>Citizenship/Nationality</h3>
+      <p>Caucasian: 54.1%</p>
+      <p>African-American: 34.1%</p>
+      <p>Asian: 3.2%</p>
+      <p>Native American: 0.2%</p>
+      <p>Of all races: 91.4% identify themselves as non-Hispanic or Latinos, while 8.6% do identify themselves as such.</p>
+      
+      <h3>Education Attainment</h3>
+      <p>High school graduates: 22.6%</p>
+      <p>College experience: 22.4%</p>
+      <p>College graduates: 23.3%</p>
+  </article>
+
+  <article class="stats">
+       <h3>Calendar</h3>
+      <iframe src="https://calendar.google.com/calendar/embed?src=d00a6b1a7405bf88da85870dacf553410a11a7b90e7451aab330d61ee581d8b7%40group.calendar.google.com&ctz=America%2FNew_York" 
+      style="border: solid 1px #777; width: 100%; max-width: 500px; height: 200px; overflow: auto;"></iframe>
+  </article>
+</section>
+
+
+
+<div class="media-card">
+  <br>
+    <picture class="first-media-card-image">
+      <img src="/chamber/images/stonemountain.webp" alt="Stone Mountain" loading="lazy">
+    </picture>
+
+      <div class="discover-article">
+        <h2>Stone Mountain Park </h2>
+          <p>
+            Simplify your trip to Stone Mountain with a half-day small-group tour.
+            Discover the natural history of this massive granite mountain at various attractions within Stone Mountain Park.
+            Hike nature trails, visit the Stone Mountain Museum, and ride the cable car to the summit for breathtaking views 
+            of Georgia's landscape. Enjoy ample free time for your own exploration.
+          </p>
+            
+      </div>
+</div>
+
+
+
+      <div class="media-card">
+        <br>
+          <picture class="second-discover-image">
+              <img src="/chamber/images/Strangerthings.webp" alt="Strange Things" loading="lazy">
+          </picture>
+          <div class="discover-article">
+              <h2>
+                Stranger Things tour
+              </h2>
+              <p>
+                Maximize your exploration of Stranger Things filming locations in less time by joining this guided tour.
+                Your knowledgeable guide is well-versed in efficient routes throughout Atlanta and the surrounding area,
+                ensuring you cover more ground than if you were to explore independently. 
+                Enjoy the convenience of hotel pickup and drop-off, traveling in comfort. 
+                Throughout the journey, your guide will provide behind-the-scenes insights, 
+                enhancing your experience with fascinating information about key scenes from the show.
+              </p>
+              
+          </div>
+      </div>
+      
+    
+       <div class="media-card">
+        <br>
+      <picture class="third-discover-image">
+          <img src="/chamber/images/dunawaygardens.webp" alt="Dunaway Gardens" loading="lazy">
+      </picture>
+      <div class="discover-article">
+          <h2>
+            Dunaway Gardens
+          </h2>
+          <p>
+            Established in 1934 as an original venue for theatrical training and home to some of the nation's
+            most cherished stage performances, Dunaway stands out as a unique rock and floral garden, 
+            showcasing unparalleled beauty across all seasons. Ideal for weddings, this location is steeped in history,
+            featuring enchanting walking paths and breathtaking scenery at every turn. Whether you're celebrating a
+            wedding or simply enjoying a day out, Dunaway is a splendid destination with its rich history and picturesque 
+            surroundings. It's undeniably a cool spot worth experiencing.
+
+          </p>
+          
+      </div>
+      </div>
+
+      <div class="media-card">
+        <br>
+      <picture class="fourth-discover-image">
+          <img src="/chamber/images/ashleypark.webp" alt="Ashley Park" loading="lazy">
+      </picture>
+      <div class="discover-article">
+          <h2>Ashley Park</h2>
+          <p>
+            Ashley Park stands as an open-air,mixed-use shopping center, presenting a diverse range of gourmet dining 
+            and trendy shopping options. It serves as an ideal destination for a romantic date night with your spouse 
+            or a fun-filled girls' night out with your best friends!
+          </p>
+          
+      </div>
+      </div>
+
+      <div class="media-card">
+        <br>
+          <picture class="fifth-discover-image">
+              <img src="/chamber/images/carlmillerpark.webp" alt="Carl Miller Park" loading="lazy" >
+          </picture >
+          <div class="discover-article">
+              <h2>Carl Miller Park</h2>
+              <p> 
+                This park is owned by Newnan Utilities but is open to the public and enjoys support from numerous local families and businesses.
+                In addition to standard playground equipment, you'll find custom-made wooden structures like "castles," "school buses," "airplanes," 
+                and more, encouraging imaginative play for visitors of all ages.
+              </p>
+              
+          </div>
+      </div>
+
+      <div class="media-card">
+        <br>
+        <picture class="fifth-discover-image">
+            <img src="/chamber/images/cocacola.webp" alt="World of Coca Cola" loading="lazy">
+        </picture>
+        <div class="discover-article">
+            <h2>
+              World of Coca-Cola 
+            </h2>
+            <p>
+              Visit World of Coca-Cola in Atlanta with this skip-the-line admission ticket to the home of the famous beverage brand. 
+              See the vault that holds the secret Coca-Cola recipe, and browse exhibits with more than 1,200 Coca-Cola artifacts. 
+              Then watch a 3-D movie that spans the globe and sample more than 100 different beverages.
+            </p>
+            
+        </div>
+        </div>
+
+       
+
+
+      <br>
+
+                 
+</main>
+    <footer>
+      <p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
+      <p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
+      <script src="/chamber/scripts/lastmodified.js"></script> 
+      <script src="/chamber/scripts/discover.js"></script> 
+            
+    </footer>
+          
+</body>
+    </html>
+        
+      
+      
+      
+      

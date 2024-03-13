@@ -13,3 +13,21 @@
 
 
 
+/*----Discovery Page-------*/
+#discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.media-card {
+    width: 100%;
+    transition: ease-in-out 0.3s;;
+    transform: scale(0.9);
+}
+.media-card:hover {
+    transform: scale(1.02);
+}
+
+
+
+
