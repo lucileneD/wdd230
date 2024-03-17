@@ -54,7 +54,7 @@
   <main class="container">
     <section class="form-section">
       <h2>Join Newnan Chamber</h2>
-        <form action="thankyou.html" method="get">
+      <form action="./thankyou.html" method="get" onsubmit="return validateForm()">
             <div class="form-group">
                     <label for="first-name">First Name:</label>
                     <input type="text" id="first-name" name="first-name" required>
@@ -96,7 +96,7 @@
                 </div>
                 <input type="hidden" id="timestamp" name="timestamp" value="">
           </form>      
-                <form action="join.html">
+                <form action="./thankyou.html">
                   <button class="join-button">Join Now</button>
                 </form>
       </section>
@@ -139,6 +139,7 @@
                 <p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
                 <p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
                 <script src="./scripts/lastmodified.js"></script> 
+                <script src="./scripts/validator.js"></script>
             
             </footer>
           
