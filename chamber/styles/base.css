@@ -769,18 +769,26 @@ main.discover picture img[data-src] {
 }
 
 button[type="submit"] {
-  background-color: red; /* Changed from green to red */
-  color: #01385E;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  background-color: #0b6623;
+  border-radius:  25px;
+  border: 2px #ffffff solid;
+  box-shadow: 2px 6px 12px #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
   cursor: pointer;
 }
 
 button[type="submit"]:hover {
-  background-color: #ff6666; /* Lighter red on hover */
+  color: #d85a33;
+  background-color: #01385E;
+  box-shadow: 4px 4px 4px #000000;
 }
+
 
 .required::after {
   content: "*";
