@@ -1,0 +1,74 @@
+{
+    "SharpsburgWardMembers" : [
+        {
+        "familyName" : "Alba",
+        "movedIn" : "1999",
+        "familyNumber" : 3,
+        "visited" : true,
+        "individuals" : [
+            {
+                "name" : "Enzo",
+                "gender" : "M",
+                "birthdate" : "02/05/2010"
+            },
+            {
+                "name" : " Jose ",
+                "gender" : "M",
+                "birthdate" : "02/28/1951"
+            },
+            {
+                "name" : "Maria",
+                "gender" : "F",
+                "birthdate" : "09/09/1955"
+            }
+             ]
+        },
+        {
+        "familyName" : "Noss",
+        "movedIn" : "2024",
+        "familyNumber" : 2,
+        "visited" : false,
+        "individuals" : [
+            {
+                "name" : "Crest",
+                "gender" : "M",
+                "birthdate" : "01/09/2000"
+            },
+            {
+                "name" : "Genevieve",
+                "gender" : "F",
+                "birthdate" : "06/19/2001"
+            }
+        ]},
+        {
+            "familyName" : "Hammond",
+            "movedIn" : "2023",
+            "familyNumber" : 2,
+            "visited" : false,
+            "individuals" : [
+                {
+                    "name" : "Steve",
+                    "gender" : "M",
+                    "birthdate" : "03/10/1983"
+                },
+                {
+                    "name" : "Lucilene",
+                    "gender" : "F",
+                    "birthdate" : "09/29/1984"
+                }
+            ]},
+        {
+        "familyName" : "Lowe",
+        "movedIn" : "2020",
+        "familyNumber" : 1,
+        "visited" : true,
+        "individuals" : [
+            {
+                "name" : "Betty",
+                "gender" : "F",
+                "birthdate" : "08/19/1942"
+            }
+            ]
+        }
+    ]
+}

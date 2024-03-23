@@ -74,21 +74,22 @@
 <section>
     <h3><span class="section-heading">Learning Activities</span></h3>
     
-        <ul>
-            <li class="week-link">week 01: <a href="./week01/styles/holygrail.html">Holygrail</a> | <a href="week01/styles/media-query.html">Media-query</a></li>
-            <li class="week-link">week 02: <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/ldeweese/pen/rNbVjve">Responsive Hamburger Menu</a> | <a href= "week02/bom.html">DOM Manipulation</a></li>
-            <li class="week-link">week 03: <a href="./week03/images/landscape.webp">Webp</a>| <a href="./week03/styles/lazyload.html">Lazy Loading </a> | <a href="./week03/styles/responsive-images.html">Responsive Images</a>  | <a href="./week03/styles/bom.html">BOM localstorage</a></li>
-            <li class="week-link">week 04: <a href="https://codepen.io/ldeweese/pen/ZEVMmxm">Pseudo-class Fun</a> | <a href="./week04/images/CSS Combinators-Lucilene.png">CSS combinator</a> | <a href="./week04/styles/tablebuild.html">Table Build | <a href="./week04/Form-start/index.html">Form activity</a></li>
-            <li class="week-link">week 05: <a href="">Title</a></li>
-            <li class="week-link">week 06: <a href="">Title</a></li>
-            <li class="week-link">week 07: <a href="">Title</a></li>
-        </ul>
+    <ul id="courseLinks">
+        <!--This section is dynamic, supplied by JavaScript using JSON data -->
+    </ul>
 
 </section>
 
 <section>
     <h3><span class="section-heading">Information</span></h3>
-    <p>☀️80 F -  Sunshine</p>
+   
+   <figure>
+    <p id="local-info">Local: Newnan, GA</p>
+    <p id="current-temp"> Current Temperature: </p>
+        <img id="weather-icon" src="" alt="">
+        <figcaption></figcaption>
+    </figure>
+        
     <p id="pageVisitCounter" class="counter-value">Visit Count: 0</p>
     
 </section>
@@ -115,5 +116,7 @@
 
 </footer>
 <script src="./scripts/getDates.js"></script> 
+<script src="./scripts/weather.js"></script> 
+<script src="./scripts/links.js"></script> 
 </body>
 </html>

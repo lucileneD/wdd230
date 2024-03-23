@@ -324,7 +324,7 @@ body.dark-mode {
 }
 
 .dark-mode li {
-    color: #202020;
+    color: #cfc9c9;
 }
 
 .dark-mode ul {
@@ -376,4 +376,80 @@ body.dark-mode {
         padding: 4rem;
       } 
 
+/***weather section ****/
+      #current-temp {
+        font-size: 18px; 
+        color: #042545;
+        font-weight: bold; 
+        margin-bottom: 5px; 
+    }
+
+    figcaption {
+        font-style:normal; 
+        color: #08457e;
+    }
+    #local-info {
+        font-size: 18px;
+        color: #005245;
+        font-style: normal; 
+    }
+
+
+    #pageVisitCounter{
+        color: #08457e;
+        padding: 2.5rem;
+        font-weight: bold; 
+
+    }
+
+    a{
+        color:#08457e;
+        text-decoration: none;
+        padding: .5em;
+    }
+
+    li{
+        color: #005245;
+        list-style: none;
       
+    }
+
+  
+      
+      .dark-mode #current-temp {
+        font-size: 18px; 
+        color: #fff;
+        font-weight: bold; 
+        margin-bottom: 5px; 
+    }
+
+    .dark-mode figcaption {
+        font-style:normal; 
+        color: #fff;
+    }
+    .dark-mode #local-info {
+        font-size: 18px;
+        color: #fff;
+        font-style: normal; 
+    }
+
+
+    .dark-mode #pageVisitCounter{
+        color: #fff;
+        padding: 2.5rem;
+        font-weight: bold; 
+
+    }
+
+    .dark-mode a{
+        color:#fff;
+        text-decoration: none;
+        padding: .5em;
+    }
+
+    .dark-mode li{
+        color: #fff;
+        list-style: none;
+      
+    }
+    
