@@ -2,7 +2,7 @@
 * Dynamic Links Using JSON Functions *
 *************************************/
 const baseurl = 'https://github.com/lucileneD/wdd230';
-const linksurl = 'data/links.json';
+const linksurl = 'https://github.com/lucileneD/wdd230/data/links.json';
 const linkMenu = document.querySelector('#courseLinks');
 
 async function getLinkData() {
