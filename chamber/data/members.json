@@ -1,0 +1,124 @@
+{
+    "members": [
+        {
+            "name": "SHANE CO JEWELRY",
+            "address": "735 Ernest W Barrett Pkwy NW, Newnan, GA 30144",
+            "phone": "(678) 355-1144",
+            "web": "https://www.shaneco.com/",
+            "pic": "images/shanec.webp",
+            "level": "Bronze",
+            "slug": "shane-co-jewelry",
+            "alt": "Shane Co Jewelry"
+        },
+        {
+            "name": "KAY FASHION JEWELRY",
+            "address": "386 Newnan Crossing Byp, Newnan, GA 30265",
+            "phone": "(770) 252-2592",
+            "web": "https://www.kay.com/",
+            "pic": "images/kayj.webp",
+            "level": "Gold",
+            "slug": "kay-fashion-jewelry",
+            "alt": "Kay Fashion Jewelry"
+        },
+        {
+            "name": "MORGAN JEWELERS",
+            "address": "14 N Court Sq, Newnan, GA 30263",
+            "phone": "(770) 253-2720",
+            "web": "https://www.morganjewelersnewnan.com/",
+            "pic": "images/morganj.webp",
+            "level": "Gold",
+            "slug": "morgan-jewelers",
+            "alt": "Morgan Jewelers"
+        },
+        {
+            "name": "LAW OFFICE OF JOHNNY PHILLIPS",
+            "address": "12 Jackson St, Newnan, GA 3026",
+            "phone": "(404) 948-3334",
+            "web": "https://johnnyphillipslaw.com/",
+            "pic": "images/lawoffice.webp",
+            "level": "Silver",
+            "slug": "law-office-of-johnny-phillips",
+            "alt": "Law Office of Johnny Phillips"
+        },
+        {
+            "name": "THE JEWKES FIRM, LLC.",
+            "address": "1155 Senoia Rd, Tyrone, GA 30290",
+            "phone": "(678) 688-8296",
+            "web": "https://jewkesfirm.com/",
+            "pic": "images/jewkes.webp",
+            "level": "Silver",
+            "slug": "the-jewkes-firm-llc",
+            "alt": "The Jewkes Firm, LLC."
+        },
+        {
+            "name": "HORN E& GRIFFINS",
+            "address": "32 South Court Square, Newnan, GA  30263",
+            "phone": "(770) 253-3282",
+            "web": "https://newnanlaw.com/",
+            "pic": "images/hgi.webp",
+            "level": "Gold",
+            "slug": "horn-e-grieffins",
+            "alt": "Horn E& Griffins"
+        },
+        {
+            "name": "VIBRANT KIDS PEDIATRICS",
+            "address": "10 Market Square Rd, Newnan, GA 30265",
+            "phone": "(678) 423-5560",
+            "web": "https://www.vibrantkids.us/",
+            "pic": "images/vkids.webp",
+            "level": "Silver",
+            "slug": "vibrant-kids-pediatrics",
+            "alt": "Vibrant Kids Pediatrics"
+        },
+        {
+            "name": "JUST US KIDS PEDIATRICS",
+            "address": "2462 Highway 34 E, Newnan, GA 30265",
+            "phone": "(770) 683-5437",
+            "web": "https://justuskidspeds.com/",
+            "pic": "images/justusk.webp",
+            "level": "Gold",
+            "slug": "just-us-kids-pediatrics",
+            "alt": "Just Us Kids Pediatrics"
+        },
+        {
+            "name": "PIEDMONT PHYSICIANS",
+            "address": "189 Jefferson Parkway, Newnan, GA 30263",
+            "phone": "(770) 304-2220",
+            "web": "https://www.care.piedmont.org/",
+            "pic": "images/piedmonth.webp",
+            "level": "Silver",
+            "slug": "piedmont-physicians",
+            "alt": "Piedmont Physicians"
+        },
+        {
+            "name": "APRICOT LANE BOUTIQUE",
+            "address": "358 A Newnan Crossing Blvd, Newnan, GA  30263",
+            "phone": "770-400-5881",
+            "website": "http://apricotlaneboutique.com/",
+            "pic": "images/aplane.webp",
+            "level": "Gold",
+            "slug": "apricot-lane-boutique",
+            "alt": "Apricot Lane Boutique"
+        },
+        {
+            "name": "LANE BRYANT",
+            "address": "400 Newnan Crossing Bypass, Newnan 30265",
+            "phone": "(770) 252-6570",
+            "web": "https://www.lanebryant.com",
+            "pic": "images/laneb.webp",
+            "level": "Bronze",
+            "slug": "lane-bryant",
+            "alt": "Lane Bryant"
+        },
+        {
+            "name": "MINUTE MAN PRESS",
+            "address": "167 Millard Farmer Ind. Blvd. Suite B, Newnan, GA 30263",
+            "phone": "770-253-6440",
+            "web": "https://www.minuteman.com/",
+            "pic": "images/minmen.webp",
+            "level": "Bronze",
+            "slug": "minute-man-press",
+            "alt": "Minute Man Press"
+        }
+    ]
+}

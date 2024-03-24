@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230- Web Fronted Development- Lucilene DeWeese - Chamber">
+  <meta name="author" content="Lucilene DeWeese">
+  <meta property="og:title" content="Chamber">
+  <meta property="og:description" content="Chamber of commerce.">
+  <meta property="og:image" content="https://github.com/lucileneD/wdd230/blob/main/chamber/images/titleimage.jpg">
+  <meta property="og:url" content="https://lucilened.github.io/wdd230/">
+  <meta property="og:site_name" content="Wed Design">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="Newnan">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="../chamber/styles/base.css" type="text/css">
+  <link rel="stylesheet" href="../chamber/styles/large.css" type="text/css">
+  <link rel="stylesheet" href="../chamber/styles/normalize.css">
+  <title>Newnan Chamber of Commerce </title>
+</head>
+   
+<body>
+      
+  <header>
+          <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <img id="logo" src="./images/logoNewnan.webp" alt="newnan logo">
+      <h1>Newnan Chamber of Commerce</h1>
+    </div>
+  </header>
+      
+        
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul> 
+    <ul>  
+      <li class="custom-text">Newnan the city of homes</li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="discover.html">Discover</a></li>
+      <li class="hideOnMobile"><a href="directory.html">Directory</a></li>
+      <li class="hideOnMobile"><a href="join.html">Join</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+   </ul> 
+
+  </nav>
+           
+    
+  <main>
+  <section id="directory">
+    <h2 id="chamber-members">Chamber Members</h2>
+    <div id="layout">
+        <button id="grid">⏹️Grid or 📄List</button>
+    </div>
+    <article id="content" class="grid">        
+           <!-- using members.json -->
+    </article>
+    </section>
+</main>
+
+   
+
+<footer>       
+<p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
+<p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
+<script src="./scripts/lastmodified.js"></script> 
+<script src="./scripts/directory.js"></script> 
+            
+</footer>
+</body>
+</html>         
+             
+      
+       
+        
+      
+      
+      
+      
