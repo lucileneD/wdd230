@@ -21,6 +21,11 @@
 </head>
    
 <body>
+  <div id="banner" class="closed">
+    <h1> You are invited!</h1>
+    <p id="banner-text"></p>
+    <div id="banner-close"></div>
+  </div>
       
   <header>
           <!-- Top Navigation Menu -->
@@ -50,7 +55,8 @@
 
   </nav>
            
-    <main>
+ <main>
+      
                     
     <section class = "card1">
       <h2> Welcome to the Newnan Chamber of Commerce </h2>
@@ -63,10 +69,9 @@
           <source srcset="./images/newnanmedium.webp" media="(max-width: 960px)">
           <img src="./images/newnanlarge.webp" alt="hero" width="960" height="480">
       </picture>
-  </div>
+    </div>
   
-      </div>
-          <br>
+        <br>
       <h3>Our Purpose</h3>
             <br>
       <p>
@@ -80,120 +85,113 @@
             </p>
             <br>
 
-            <div class="container-group">
-              <div class="Chamber-container">
-                <img class="card-img" src="./images/events.webp" alt="events">
-                <h2>Upcoming Events</h2>
-                <p><b>March 15-</b> Ribbon cutting: Wynn Productions</p>
-                <p><b>March 20-</b> 2023 Lunch and learn series</p>
-                <p><b>March 30-</b> Breakfast and Network </p>
-              </div>
-              <br>
+<div class="container-group">
+    <div class="Chamber-container">
+      <img class="card-img" src="./images/events.webp" alt="events">
+        <h2>Upcoming Events</h2>
+          <p><b>March 29-</b> Ribbon cutting: Wynn Productions</p>
+          <p><b>April 5-</b> 2023 Lunch and learn series</p>
+          <p><b>April 13-</b> Breakfast and Network </p>
+    </div>
+    
+     <br>
             
-              <div class="Chamber-container">
-                <img class="card-img" src="./images/gold.webp" alt="spotlight">
-                <h2 id="top"> Gold Members</h2>
-          <p> NAVIGATE MARKETING,INC.<p> 
-          <p> CHROMALLOY GEORGIA</p> 
-          <p> BWAY CORP</p> 
-          <p> RBW ENTERPRISE</p> 
-          <p>PRINT SOURCE </p> 
-          <p>MINUTE MAN PRESS</p>
-             </div>
+  <div class="Chamber-container">
+    <img class="card-img" src="./images/gold.webp" alt="spotlight">
+      <h2 id="top"> Gold Members</h2>
+      <p> NAVIGATE MARKETING,INC.<p> 
+      <p> CHROMALLOY GEORGIA</p> 
+      <p> BWAY CORP</p> 
+      <p> RBW ENTERPRISE</p> 
+      <p>PRINT SOURCE </p> 
+      <p>MINUTE MAN PRESS</p>
+  </div>
        <br>
-             <div class="Chamber-container">
-              <img class="card-img" src="./images/become.webp" alt="join">
-              <h2>Become a member of the Chamber.</h2>
+    <div class="Chamber-container">
+      <img class="card-img" src="./images/become.webp" alt="join">
+          <h2>Become a member of the Chamber.</h2>
           <p>By joining the Chamber, you are supporting our mission to help people live, work & thrive in Newnan.
              Build your network through our program, event, and relationship opportunities.</p> 
               
         <form action="join.html">
           <button class="join-button">Join Now</button>
         </form>
-      </div>
     </div>
-<br>
-         <section class ="card2">
-          <h3>Newnan 7 Days Forecast</h3>
-          <a class="weatherwidget-io" href="https://forecast7.com/en/33d38n84d80/newnan/" data-label_1="NEWNAN" data-label_2="WEATHER" data-theme="original" >NEWNAN WEATHER</a>
+</div>
+      <br>
+  <section class ="card2">
+      <h3>Newnan's current weather</h3>
+          <!-- <a class="weatherwidget-io" href="https://forecast7.com/en/33d38n84d80/newnan/" data-label_1="NEWNAN" data-label_2="WEATHER" data-theme="original" >NEWNAN WEATHER</a>
       <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
       </script>
-      </section>
-      
+      </section> -->
+           
+      <section class="weather">
+        <h2>Weather</h2>
+        <p>Today's Temp: <span id="current-temp"></span></p>
+        <figure>
+            <img id="weather-icon" src="valid-source-url" alt="Weather Icon">
+            <figcaption></figcaption>
+        </figure>
+        <p>Wind Speed: <span id="speed"></span></p>
+        <p>Feels Like: <span id="chill"></span></p>
+        <br>
+        <h3>3 Day Forecast</h3>
+    <article id="forecast">
+        <h3 class="visually-hidden">Forecast Heading</h3>
+      </article>
+    </section>
 
-      
+    <section class="card2">
+      <h3>Newnan's map</h3>
+      <br>
       <div class="contact-info">
-        <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53307.90310131645!2d-84.76311095000001!3d33.37775035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f4c62a4dc53ab9%3A0xf4ea9dda60240ecb!2sNewnan%2C%20GA!5e0!3m2!1spt-BR!2sus!4v1696440041618!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53307.90310131645!2d-84.76311095000001!3d33.37775035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f4c62a4dc53ab9%3A0xf4ea9dda60240ecb!2sNewnan%2C%20GA!5e0!3m2!1spt-BR!2sus!4v1696440041618!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+  </section>
+
        <br>
-      <div class="info">
-        <br>
-      
+    
+     
         
         <section class = "card1">
           <h3> Business Spotlight</h3>
         </section>
       
+          <div id="cards">
+              <!-- The content is provided by JavaScript found in 'spotlight.js' using 'members.json' -->
+          </div>
+         </section>
         
-        <section class="spotlight">
-          <div class="spotlight-1">
-              <h2>KAY FASHION JEWELRY</h2>
-              <a href="https://www.kay.com/"> <img src="./images/jewelry.webp" alt="spotlight 1"></a>
-      
-              <p> 386 Newnan Crossing Byp, Newnan, GA 30265</p>
-              <p> (770) 252-2592</p> 
-              
-          </div>
-      <br>
-
-          <div class="spotlight-2">
-              <h2>PIEDMONT PHYSICIANS</h2>
-              <a href="https://www.care.piedmont.org"><img src="./images/piedmont.webp" alt="Spotlight 2"></a>
-      
-              <p>189 Jefferson Parkway, Newnan, GA 30263</p>
-              <p>(770) 304-2220</p> 
              
-          </div>
-      <br>
-
-          <div class="spotlight-3">
-              <h2> APRICOT LANE BOUTIQUE </h2>
-              <a href="http://www.apricotlaneboutique.com/"><img src="./images/boutique.webp" alt="Spotlight 3"></a>
-              
-              <p> 358 A Newnan Crossing Blvd, Newnan, GA  30263</p> 
-              <p>770-400-5881</p>
-             
-          </div> 
-      <br>
-
-        </section>
-      
-            <br>
-
+         <div class="info">
+          <br>
           <h3>Contact Information</h3>
           <br>
-          <p>23 Bullsboro Drive Newnan,GA 30265
-            (770)253.2270
-            info@newnanchamber.org
-          </p>
-      </div>
-      <span id="social">
-        <a href="https://www.facebook.com" target="_blank" title="Facebook">
-            <img src="./images/ficon.png" alt="Facebook Icon" width="75" height="75">
-        </a>
-        <a href="https://www.instagram.com" target="_blank" title="Instagram">
-            <img src="./images/instaicon.png" alt="Instagram Icon" width="75" height="75">
-        </a>
-    </span>
-               
+          <p>23 Bullsboro Drive Newnan,GA 30265<br>
+          (770)253.2270<br>
+          info@newnanchamber.org</p>
           
-       </main>
+          <span id="social">
+              <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                  <img src="./images/ficon.png" alt="Facebook Icon" width="75" height="75">
+              </a>
+              <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                  <img src="./images/instaicon.png" alt="Instagram Icon" width="75" height="75">
+              </a>
+          </span>
+      </div>
+      
+      </main>
+      
             <footer>
                 <p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
                 <p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
                 <script src="./scripts/lastmodified.js"></script> 
+                <script src="./scripts/weather.js"></script> 
+                <script src="./scripts/spotlight.js"></script> 
+                <script src="./scripts/banner.js"></script>
             
             </footer>
           
@@ -202,7 +200,3 @@
        </body>
       </html>
         
-      
-      
-      
-      
