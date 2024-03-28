@@ -7,7 +7,7 @@
             "web": "https://www.shaneco.com/",
             "pic": "images/shanec.webp",
             "level": "Bronze",
-            "slug": "shane-co-jewelry",
+            "slug": "Where Every Sparkle Tells a Story.",
             "alt": "Shane Co Jewelry"
         },
         {
@@ -17,7 +17,7 @@
             "web": "https://www.kay.com/",
             "pic": "images/kayj.webp",
             "level": "Gold",
-            "slug": "Accessorize with Elegance: Kay Fashion Jewelry - Where Style Meets Sophistication!",
+            "slug": "Where Style Meets Sophistication.",
             "alt": "Kay Fashion Jewelry"
         },
         {
@@ -27,7 +27,7 @@
             "web": "https://www.morganjewelersnewnan.com/",
             "pic": "images/morganj.webp",
             "level": "Gold",
-            "slug": "Elevate Your Shine: Morgan Jewelers - Crafting Moments, Sparkling Memories!",
+            "slug": "Elevate Your Shine with Morgan Jewelers.",
             "alt": "Morgan Jewelers"
         },
         {
@@ -37,7 +37,7 @@
             "web": "https://johnnyphillipslaw.com/",
             "pic": "images/lawoffice.webp",
             "level": "Silver",
-            "slug": "Your Legal Ally: Law Office of Johnny Phillips - Advocating for Your Rights, Guiding Your Path.",
+            "slug": "Advocating for Your Rights, Guiding Your Path.",
             "alt": "Law Office of Johnny Phillips"
         },
         {
@@ -47,7 +47,7 @@
             "web": "https://jewkesfirm.com/",
             "pic": "images/jewkes.webp",
             "level": "Silver",
-            "slug": "Legal Excellence, Personalized Service: The Jewkes Firm LLC - Your Trusted Legal Partner.",
+            "slug": "Your Trusted Legal Partner.",
             "alt": "The Jewkes Firm, LLC."
         },
         {
@@ -57,7 +57,7 @@
             "web": "https://newnanlaw.com/",
             "pic": "images/hgi.webp",
             "level": "Gold",
-            "slug": "Legal Guardianship, Compassionate Guidance: Horn & Grieffins - Advocating with Integrity, Resolving with Care.",
+            "slug": "Advocating with Integrity, Resolving with Care.",
             "alt": "Horn E& Griffins"
         },
         {
@@ -67,7 +67,7 @@
             "web": "https://www.vibrantkids.us/",
             "pic": "images/vkids.webp",
             "level": "Silver",
-            "slug": "Nurturing Health, Fostering Smiles: Vibrant Kids Pediatrics - Where Care Meets Compassion.",
+            "slug": "Where Care Meets Compassion.",
             "alt": "Vibrant Kids Pediatrics"
         },
         {
@@ -77,7 +77,7 @@
             "web": "https://www.justuskidspeds.com/",
             "pic": "images/justusk.webp",
             "level": "Gold",
-            "slug": "Empowering Futures, Enriching Lives: Just-Us Kids Pediatrics - Your Partner in Pediatric Care.",
+            "slug": "Your Partner in Pediatric Care.",
             "alt": "Just Us Kids Pediatrics"
         },
         {
@@ -87,7 +87,7 @@
             "web": "https://www.care.piedmont.org/",
             "pic": "images/piedmonth.webp",
             "level": "Silver",
-            "slug": "piedmont-physicians",
+            "slug": "Caring for You Every Step of the Way.",
             "alt": "Piedmont Physicians"
         },
         {
@@ -97,7 +97,7 @@
             "website": "http://apricotlaneboutique.com/",
             "pic": "images/aplane.webp",
             "level": "Gold",
-            "slug": "apricot-lane-boutique",
+            "slug": "Where Fashion Meets Passion.",
             "alt": "Apricot Lane Boutique"
         },
         {
@@ -107,7 +107,7 @@
             "web": "https://www.lanebryant.com",
             "pic": "images/laneb.webp",
             "level": "Bronze",
-            "slug": "lane-bryant",
+            "slug": "lane-bryant: Where Fashion Fits.",
             "alt": "Lane Bryant"
         },
         {
@@ -117,7 +117,7 @@
             "web": "https://www.minuteman.com/",
             "pic": "images/minmen.webp",
             "level": "Bronze",
-            "slug": "minute-man-press",
+            "slug": "Your Reliable Printing Partner.",
             "alt": "Minute Man Press"
         }
     ]
