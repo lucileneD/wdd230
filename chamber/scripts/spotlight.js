@@ -7,7 +7,7 @@ const membersList = [];
 async function getLinkData() {
     const response = await fetch(spotlighturl);
     const data = await response.json();
-	buildArray(data.members); // 'data' is the response container and 'members' is the name of the array found in the JSON file
+	buildArray(data.members); 
 }
 
 const buildArray = (members) => {
@@ -21,7 +21,7 @@ const buildArray = (members) => {
 getLinkData();
 
 /************************************************************************************
-* Choose three members from array, remove them, build card and place them into page *
+* Choose three members from array *
 ************************************************************************************/
 const card = document.querySelector('#cards');
 
