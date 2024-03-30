@@ -886,16 +886,15 @@ button[type="submit"]:hover {
   height: 1px;
   width: 1px;
   overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
 
 /* Styles for large view */
 #content.grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  gap: 10px; /* Reduced gap between cards */
-  padding: 20px; /* Adding padding to move content inside */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  padding: 20px; 
 }
 
 /* Styles for medium view */
