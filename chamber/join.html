@@ -54,102 +54,96 @@
   <main class="container">
     <section class="form-section">
       <h2>Join Newnan Chamber</h2>
-      <form action="./thankyou.html" method="post" onsubmit="return validateForm()">
+      <form method="get" action="thankyou.html">
             <div class="form-group">
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first-name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="position">Title/Position:</label>
-                <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" required>
-            </div>
-              
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="example@example.com" required>
-            </div>
-
-            <div class="form-group">
-                <label for="phone">Mobile Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-
-            <div class="form-group">
-                <label for="organization">Organization Name:</label>
-                <input type="text" id="organization" name="organization" required>
-            </div>
-
-            <div class="form-group">
-              <label for="membership">Membership Level:</label>
-                <select id="membership" name="membership" required>
-                  <option value="" disabled selected>Select Membership Level</option>
-                  <option value="NP Membership">NP Membership (Free)</option>
-                  <option value="Bronze Membership">Bronze Membership</option>
-                  <option value="Silver Membership">Silver Membership</option>
-                  <option value="Gold Membership">Gold Membership</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="description">Organization Description:</label>
-                <textarea id="description" name="description"></textarea>
-            </div>
-
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="position">Title/Position:</label>
+                    <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+                </div>
+                <div class="form-group">
+                    <label for="membership">Membership Level:</label>
+                    <select id="membership" name="membership" required>
+                      <option value="" disabled selected>Select Membership Level</option>
+                      <option value="NP Membership">NP Membership (Free)</option>
+                      <option value="Bronze Membership">Bronze Membership</option>
+                      <option value="Silver Membership">Silver Membership</option>
+                      <option value="Gold Membership">Gold Membership</option>
+                  </select>
+                  
+                </div>
+                <div class="form-group">
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
                 <input type="hidden" id="timestamp" name="timestamp" value="">
-                <button type="submit" class="join-button">Join Now</button> 
-        </form>      
+          </form>      
+                <form action="./thankyou.html">
+                  <button type="submit" class="join-button">Join Now</button> 
+                </form>
       </section>
 
-  <aside class="benefits-section">
-    <h2> Benefits Reserved for Members </h2>
+        <aside class="benefits-section">
+        <h2> Benefits Reserved for Members </h2>
       <section id="member-benefits">
-        <div>
-            <h3>NP Membership</h3>
+            <div>
+                <h3>NP Membership</h3>
+                <br>
+                <p class="price">$0/year</p>
+                <p> This tier caters specifically to non-profit organizations and comes at no cost. It provides equivalent benefits to those of a Silver 'Member'.</p>
+            </div>
+            <div>
+                <h3>Bronze Membership</h3>
+                <br>
+                <p class="price">$200/year</p>
+                <p> You'll receive access to quarterly mixers, professional development workshops, and a 15% discount on contracted business insurance premiums through our exclusive insurance partner</p>
+            </div>
+            <div>
+                <h3>Silver Membership</h3>
+                <br>
+                <p class="price">$300/year</p>
+                <p> You'll receive access to all features included in the Bronze membership, along with a 25% discount on ad space in a leading local newspaper, a 30% discount on insurance premiums through our partner, and direct communication with our chamber's board of legal advisors.</p>
+            </div>
+            <div>
+                <h3>Gold Membership</h3>
+                <br>
+                <p class="price">$400/year</p>
+                <p> You'll gain access to all the perks of the Silver membership, and on top of that, you'll enjoy quarterly marketing opportunities at local grocery stores, VIP reserved tents at Newnan farmer's markets, featured space on our town chamber's website, priority registration for chamber events, personalized business development consultations, exclusive access to industry reports and market insights, discounted rates on advertising and promotional services, and invitations to special networking gatherings.</p>
+            </div>
             <br>
-            <p class="price">$0/year</p>
-            <p> This tier caters specifically to non-profit organizations and comes at no cost. It provides equivalent benefits to those of a Silver 'Member'.</p>
-        </div>
+    </section>
 
-        <div>
-            <h3>Bronze Membership</h3>
-            <br>
-            <p class="price">$200/year</p>
-            <p> You'll receive access to quarterly mixers, professional development workshops, and a 15% discount on contracted business insurance premiums through our exclusive insurance partner</p>
-        </div>
-
-        <div>
-            <h3>Silver Membership</h3>
-            <br>
-            <p class="price">$300/year</p>
-            <p> You'll receive access to all features included in the Bronze membership, along with a 25% discount on ad space in a leading local newspaper, a 30% discount on insurance premiums through our partner, and direct communication with our chamber's board of legal advisors.</p>
-        </div>
-
-        <div>
-            <h3>Gold Membership</h3>
-            <br>
-            <p class="price">$400/year</p>
-            <p> You'll gain access to all the perks of the Silver membership, and on top of that, you'll enjoy quarterly marketing opportunities at local grocery stores, VIP reserved tents at Newnan farmer's markets, featured space on our town chamber's website, priority registration for chamber events, personalized business development consultations, exclusive access to industry reports and market insights, discounted rates on advertising and promotional services, and invitations to special networking gatherings.</p>
-        </div>
-            <br>
-      </section>
-
-  </aside>
+      </aside>
 
           
-  </main>
-      <footer>
-        <p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
-        <p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
-        <script src="./scripts/lastmodified.js"></script> 
-        <script src="./scripts/validator.js"></script>
+       </main>
+            <footer>
+                <p class="footer-text">&copy; 2024 Lucilene DeWeese | Georgia | WDD 230 | </p>
+                <p class="last-modified">Last Modified: <span id="lastModified">Not available</span></p>
+                <script src="./scripts/lastmodified.js"></script> 
+                <script src="./scripts/validator.js"></script>
             
-      </footer>
+            </footer>
+          
+
          
   </body>
   </html>
